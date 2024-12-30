@@ -650,3 +650,19 @@ footer .content {
     text-align: center;
   }
 }
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px;
+  aspect-ratio: 1;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
